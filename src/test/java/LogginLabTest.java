@@ -29,6 +29,8 @@ public class LogginLabTest {
                 logger.log(Level.INFO, "Threshold finally reached!");
                 assertFalse(lab.thresholdExceeds(i));
             }
+
+
         }
     }
 }
